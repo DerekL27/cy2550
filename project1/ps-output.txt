@@ -1,0 +1,6 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 12:18 ?        00:00:00 /init
+root       333     1  0 12:28 ?        00:00:00 /init
+root       334   333  0 12:28 ?        00:00:00 /init
+dleung     335   334  0 12:28 pts/0    00:00:00 -bash
+dleung     468   335  0 12:33 pts/0    00:00:00 ps -ef
