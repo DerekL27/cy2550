@@ -1,6 +1,173 @@
-UID        PID  PPID  C STIME TTY          TIME CMD
-root         1     0  0 12:18 ?        00:00:00 /init
-root       333     1  0 12:28 ?        00:00:00 /init
-root       334   333  0 12:28 ?        00:00:00 /init
-dleung     335   334  0 12:28 pts/0    00:00:00 -bash
-dleung     468   335  0 12:33 pts/0    00:00:00 ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 22:07 ?        00:00:02 /sbin/init splash
+root           2       0  0 22:07 ?        00:00:00 [kthreadd]
+root           3       2  0 22:07 ?        00:00:00 [rcu_gp]
+root           4       2  0 22:07 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 22:07 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root           6       2  0 22:07 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           7       2  0 22:07 ?        00:00:00 [kworker/u2:0-ext4-rsv-conversion]
+root           8       2  0 22:07 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 22:07 ?        00:00:00 [rcu_tasks_rude_]
+root          10       2  0 22:07 ?        00:00:00 [rcu_tasks_trace]
+root          11       2  0 22:07 ?        00:00:00 [ksoftirqd/0]
+root          12       2  0 22:07 ?        00:00:00 [rcu_sched]
+root          13       2  0 22:07 ?        00:00:00 [migration/0]
+root          14       2  0 22:07 ?        00:00:00 [idle_inject/0]
+root          16       2  0 22:07 ?        00:00:00 [cpuhp/0]
+root          17       2  0 22:07 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 22:07 ?        00:00:00 [netns]
+root          19       2  0 22:07 ?        00:00:00 [inet_frag_wq]
+root          20       2  0 22:07 ?        00:00:00 [kauditd]
+root          21       2  0 22:07 ?        00:00:00 [khungtaskd]
+root          22       2  0 22:07 ?        00:00:00 [oom_reaper]
+root          23       2  0 22:07 ?        00:00:00 [writeback]
+root          24       2  0 22:07 ?        00:00:00 [kcompactd0]
+root          25       2  0 22:07 ?        00:00:00 [ksmd]
+root          26       2  0 22:07 ?        00:00:00 [khugepaged]
+root          72       2  0 22:07 ?        00:00:00 [kintegrityd]
+root          73       2  0 22:07 ?        00:00:00 [kblockd]
+root          74       2  0 22:07 ?        00:00:00 [blkcg_punt_bio]
+root          75       2  0 22:07 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 22:07 ?        00:00:00 [ata_sff]
+root          77       2  0 22:07 ?        00:00:00 [md]
+root          78       2  0 22:07 ?        00:00:00 [edac-poller]
+root          79       2  0 22:07 ?        00:00:00 [devfreq_wq]
+root          80       2  0 22:07 ?        00:00:00 [watchdogd]
+root          82       2  0 22:07 ?        00:00:01 [kworker/0:1H-kblockd]
+root          86       2  0 22:07 ?        00:00:00 [kswapd0]
+root          87       2  0 22:07 ?        00:00:00 [ecryptfs-kthrea]
+root          89       2  0 22:07 ?        00:00:00 [kthrotld]
+root          90       2  0 22:07 ?        00:00:00 [acpi_thermal_pm]
+root          91       2  0 22:07 ?        00:00:00 [scsi_eh_0]
+root          92       2  0 22:07 ?        00:00:00 [scsi_tmf_0]
+root          93       2  0 22:07 ?        00:00:00 [scsi_eh_1]
+root          94       2  0 22:07 ?        00:00:00 [scsi_tmf_1]
+root          96       2  0 22:07 ?        00:00:00 [vfio-irqfd-clea]
+root          97       2  0 22:07 ?        00:00:00 [ipv6_addrconf]
+root         107       2  0 22:07 ?        00:00:00 [kstrp]
+root         110       2  0 22:07 ?        00:00:00 [zswap-shrink]
+root         111       2  0 22:07 ?        00:00:00 [kworker/u3:0]
+root         116       2  0 22:07 ?        00:00:00 [charger_manager]
+root         157       2  0 22:07 ?        00:00:00 [scsi_eh_2]
+root         158       2  0 22:07 ?        00:00:00 [scsi_tmf_2]
+root         159       2  0 22:07 ?        00:00:00 [scsi_eh_3]
+root         160       2  0 22:07 ?        00:00:00 [scsi_tmf_3]
+root         181       2  0 22:08 ?        00:00:00 [jbd2/sda6-8]
+root         182       2  0 22:08 ?        00:00:00 [ext4-rsv-conver]
+root         221       1  0 22:08 ?        00:00:00 /lib/systemd/systemd-journald
+root         244       2  0 22:08 ?        00:00:00 [irq/18-vmwgfx]
+root         245       2  0 22:08 ?        00:00:00 [ttm_swap]
+root         246       2  0 22:08 ?        00:00:00 [card0-crtc0]
+root         247       2  0 22:08 ?        00:00:00 [card0-crtc1]
+root         248       2  0 22:08 ?        00:00:00 [card0-crtc2]
+root         249       2  0 22:08 ?        00:00:00 [card0-crtc3]
+root         250       2  0 22:08 ?        00:00:00 [card0-crtc4]
+root         251       1  0 22:08 ?        00:00:00 /lib/systemd/systemd-udevd
+root         252       2  0 22:08 ?        00:00:00 [card0-crtc5]
+root         253       2  0 22:08 ?        00:00:00 [card0-crtc6]
+root         254       2  0 22:08 ?        00:00:00 [card0-crtc7]
+root         258       2  0 22:08 ?        00:00:00 [loop0]
+root         260       2  0 22:08 ?        00:00:00 [loop1]
+root         262       2  0 22:08 ?        00:00:00 [loop2]
+root         266       2  0 22:08 ?        00:00:00 [loop3]
+root         268       2  0 22:08 ?        00:00:00 [loop4]
+systemd+     489       1  0 22:08 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     490       1  0 22:08 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         524       1  0 22:08 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         525       1  0 22:08 ?        00:00:00 /usr/sbin/acpid
+avahi        530       1  0 22:08 ?        00:00:00 avahi-daemon: running [derek-VirtualBox.local]
+root         533       1  0 22:08 ?        00:00:00 /usr/sbin/cron -f
+root         534       1  0 22:08 ?        00:00:00 /usr/sbin/cupsd -l
+message+     535       1  0 22:08 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         536       1  0 22:08 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+root         547       1  0 22:08 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         551       1  0 22:08 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       557       1  0 22:08 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         561       1  0 22:08 ?        00:00:02 /usr/lib/snapd/snapd
+root         564       1  0 22:08 ?        00:00:00 /usr/libexec/switcheroo-control
+root         567       1  0 22:08 ?        00:00:00 /lib/systemd/systemd-logind
+root         568       1  0 22:08 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         571       1  0 22:08 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        579     530  0 22:08 ?        00:00:00 avahi-daemon: chroot helper
+root         603       1  0 22:08 ?        00:00:00 /usr/sbin/cups-browsed
+root         618       1  0 22:08 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         629       1  0 22:08 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         641       1  0 22:08 ?        00:00:00 /usr/sbin/gdm3
+root         656     641  0 22:08 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+derek        681       1  0 22:08 ?        00:00:00 /lib/systemd/systemd --user
+derek        683     681  0 22:08 ?        00:00:00 (sd-pam)
+whoopsie     691       1  0 22:08 ?        00:00:00 /usr/bin/whoopsie -f
+root         694       2  0 22:08 ?        00:00:02 [kworker/0:5-mm_percpu_wq]
+kernoops     696       1  0 22:08 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     698       1  0 22:08 ?        00:00:00 /usr/sbin/kerneloops
+derek        731     681  0 22:08 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+derek        737     681  0 22:08 ?        00:00:00 /usr/libexec/tracker-miner-fs
+derek        747       1  0 22:08 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+derek        752     656  0 22:08 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rtkit        753       1  0 22:08 ?        00:00:00 /usr/libexec/rtkit-daemon
+derek        755     752  0 22:08 tty2     00:00:06 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+derek        757     681  0 22:08 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+derek        763     681  0 22:08 ?        00:00:00 /usr/libexec/gvfsd
+derek        769     681  0 22:08 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+derek        772     681  0 22:08 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+derek        795     681  0 22:08 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+derek        801     681  0 22:08 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+derek        810     681  0 22:08 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+derek        817     681  0 22:08 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+derek        821     681  0 22:08 ?        00:00:00 /usr/libexec/goa-daemon
+derek        837     681  0 22:08 ?        00:00:00 /usr/libexec/goa-identity-service
+root         839       1  0 22:08 ?        00:00:00 /usr/lib/upower/upowerd
+derek        878     752  0 22:08 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+derek        966     878  0 22:08 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+derek       1017     681  0 22:08 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+derek       1022    1017  0 22:08 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+derek       1036     681  0 22:08 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+derek       1054     681  0 22:08 ?        00:00:00 /usr/libexec/dconf-service
+derek       1063     681  0 22:08 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+derek       1087     681  3 22:08 ?        00:00:43 /usr/bin/gnome-shell
+derek       1117    1087  0 22:08 ?        00:00:00 ibus-daemon --panel disable --xim
+derek       1125    1117  0 22:08 ?        00:00:00 /usr/libexec/ibus-memconf
+derek       1126    1117  0 22:08 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+derek       1128     681  0 22:08 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+derek       1132     681  0 22:08 ?        00:00:00 /usr/libexec/ibus-portal
+derek       1143     681  0 22:08 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+derek       1146     681  0 22:08 ?        00:00:00 /usr/libexec/xdg-permission-store
+derek       1151     681  0 22:08 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+derek       1157     681  0 22:08 ?        00:00:00 /usr/libexec/evolution-source-registry
+derek       1167     681  0 22:08 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+derek       1177     681  0 22:08 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+derek       1204     681  0 22:08 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+derek       1208     763  0 22:08 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+derek       1228     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+derek       1229     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-color
+derek       1230     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-datetime
+derek       1231     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-housekeeping
+derek       1232     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-keyboard
+derek       1233     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-media-keys
+derek       1234     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-power
+derek       1235     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-print-notifications
+derek       1236     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-rfkill
+derek       1237     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+derek       1245     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-sharing
+derek       1251     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-smartcard
+derek       1257     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-sound
+derek       1258     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-usb-protection
+derek       1262     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-wacom
+derek       1264     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-wwan
+derek       1274     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-xsettings
+derek       1281     681  0 22:08 ?        00:00:00 /usr/libexec/gsd-printer
+derek       1292    1063  0 22:08 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+derek       1314    1063  0 22:08 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+colord      1331       1  0 22:08 ?        00:00:00 /usr/libexec/colord
+derek       1350    1117  0 22:08 ?        00:00:00 /usr/libexec/ibus-engine-simple
+derek       1431     681  0 22:08 ?        00:00:00 /usr/libexec/gvfsd-metadata
+derek       1529    1063  0 22:09 ?        00:00:00 update-notifier
+derek       1777     681  0 22:15 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+derek       1781     681  0 22:15 ?        00:00:01 /usr/libexec/gnome-terminal-server
+derek       1782     681  0 22:15 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+derek       1850    1781  0 22:15 pts/0    00:00:00 bash
+root        1905       2  0 22:21 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+root        1964       2  0 22:26 ?        00:00:00 [kworker/0:1-events]
+root        1966       2  0 22:27 ?        00:00:00 [kworker/u2:2-events_unbound]
+root        3506       1  0 22:27 ?        00:00:00 /usr/lib/packagekit/packagekitd
+derek       4098    1850  0 22:30 pts/0    00:00:00 ps -ef
