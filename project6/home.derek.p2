@@ -1,0 +1,22 @@
+# Last Modified: Thu Nov 18 18:08:46 2021
+#include <tunables/global>
+
+/home/derek/p2 flags=(audit) {
+  #include <abstractions/apache2-common>
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+
+  deny /etc/**[^{passwd,hostid,timezone}] rwx,
+  deny /proc/**[^{cpuinfo,filesystems,uptime}] rwx,
+  deny /proc/stat rwx,
+  deny /proc/meminfo rwx,
+
+  /etc/hostid r,
+  /etc/passwd r,
+  /etc/timezone r,
+  /home/*/.project2/config w,
+  /home/*/template r,
+  /proc/uptime r,
+  /var/log/syslog r,
+
+}
